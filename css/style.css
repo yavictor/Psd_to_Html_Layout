@@ -160,13 +160,12 @@ h2.title {
 }
 
 .intensive_content .wrapper {
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .intensive_content .wrapper .item {
   display: inline-block;
-  vertical-align: top;
-  margin: 0 15px;
   width: 342px;
   text-align: center;
 }
