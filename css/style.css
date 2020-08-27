@@ -89,7 +89,7 @@ h2.title {
   text-align: center;
 }
 
-.promo .signup_btn {
+.signup_btn {
   width: 313px;
   height: 72px;
   box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
@@ -101,7 +101,7 @@ h2.title {
   outline: none;
 }
 
-.promo .signup_btn span {
+.signup_btn span {
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
   color: #ffffff;
   font-family: "Roboto Condensed";
@@ -259,5 +259,90 @@ h2.title {
   font-weight: 300;
   line-height: 20px;
   text-align: center;
+}
 
+.bonus {
+  min-height: 628px;
+  background-color: #efefef;
+}
+
+.bonus .box{
+  display: block;
+  margin: 0 auto 42px auto;
+  padding-top: 86px;  
+}
+
+.bonus .content {
+  color: #252525;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.bonus .signup_btn {
+  margin-bottom: 87px;
+}
+
+
+.last_message {
+  min-height: 400px;
+}
+
+.last_message .laptop {
+  display: block;
+  margin: 0 auto 37px auto;
+  padding-top: 82px;
+}
+
+.last_message .header {
+  color: #252525;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.last_message .date {
+  color: #299cbd;
+  font-family: "Roboto - Black";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.last_message .reminder {
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.footer {
+  min-height: 166px;
+  background-color: #1a1a1a;
+  padding: 61px 0 69px 0;
+}
+
+.footer .help_contacts {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+}
+
+.footer .help_contacts .link {
+  color: #888888;
+  text-decoration: underline;
 }
