@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
 }
+
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -35,9 +40,8 @@
 h1.title {
   text-align: center;
   color: #f9bf3b;
-  font-family: "Roboto - Black";
   font-size: 41px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 21px;
 }
@@ -45,25 +49,32 @@ h1.title {
 .simple .big_title {
   text-align: center;
   color: #ffffff;
-  font-family: "Roboto - Black";
   font-size: 80px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
+  margin: 0 auto;
   margin-bottom: 30px;
+  width: 560px;
+  
 }
 
 h2.title {
   text-align: center;
   color: #f9bf3b;
-  font-family: "Roboto - Black";
   font-size: 41px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 21px;
 }
 
 .simple .line {
-
+  display: none;
+  border: #ffffff 1px solid;
+  position: relative;
+  top: -78px;
+  width: 1115px;
+  opacity: 0.5;
+    
 }
 
 .promo .promo_text {
@@ -71,7 +82,6 @@ h2.title {
   font-size: 21px;
   font-weight: 300;
   line-height: 28px;
-  font-family: "Roboto Light";
   font-weight: 300;
   text-align: center;
   margin-bottom: 73px;
@@ -84,7 +94,6 @@ h2.title {
   font-weight: 300;
   line-height: 28px;
   color: #f9bf3b;
-  font-family: "Roboto - Bold";
   font-weight: 700;
   text-align: center;
 }
@@ -104,7 +113,6 @@ h2.title {
 .signup_btn span {
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
   color: #ffffff;
-  font-family: "Roboto Condensed";
   font-size: 21px;
   font-weight: 400;
   line-height: 24px;
@@ -113,9 +121,8 @@ h2.title {
 
 .promo .learn_more {
   color: #ffffff;
-  font-family: "Roboto - Thin";
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 100;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 13px;
@@ -134,7 +141,6 @@ h2.title {
 
 .intensive_content .header, .study_results .header {
   color: #252525;
-  font-family: Roboto;
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
@@ -152,7 +158,6 @@ h2.title {
 
 .intensive_content .subheader {
   color: #4a4a4a;
-  font-family: Roboto;
   font-size: 23px;
   font-weight: 400;
   line-height: 20px;
@@ -178,7 +183,6 @@ h2.title {
 
 .intensive_content .wrapper .item .descr {
   color: #4a4a4a;
-  font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
 }
@@ -190,9 +194,8 @@ h2.title {
 
 .optimisation .optimisation_header {
   color: #299cbd;
-  font-family: "Roboto - Black";
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
   margin-left: 391px;
   margin-bottom: 25px;
@@ -203,13 +206,11 @@ h2.title {
   font-size: 17px;
   font-weight: 300;
   line-height: 27px;
-  font-family: "Roboto Light";
   margin-left: 391px;
 }
 
 .optimisation .optimisation_content .bold {
-  font-family: "Roboto - Bold";
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .optimisation .woman_image {
@@ -254,7 +255,6 @@ h2.title {
 
 .study_results .results_list .descr {
   color: #efefef;
-  font-family: Roboto;
   font-size: 17px;
   font-weight: 300;
   line-height: 20px;
@@ -274,7 +274,6 @@ h2.title {
 
 .bonus .content {
   color: #252525;
-  font-family: Roboto;
   font-size: 30px;
   font-weight: 400;
   line-height: 43px;
@@ -299,7 +298,6 @@ h2.title {
 
 .last_message .header {
   color: #252525;
-  font-family: Roboto;
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
@@ -309,9 +307,8 @@ h2.title {
 
 .last_message .date {
   color: #299cbd;
-  font-family: "Roboto - Black";
   font-size: 36px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
   margin: 0 auto;
   margin-bottom: 25px;
@@ -320,7 +317,6 @@ h2.title {
 
 .last_message .reminder {
   color: #4a4a4a;
-  font-family: Roboto;
   font-size: 23px;
   font-weight: 400;
   text-align: center;
@@ -335,7 +331,6 @@ h2.title {
 
 .footer .help_contacts {
   color: #888888;
-  font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
